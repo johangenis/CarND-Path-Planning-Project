@@ -21,7 +21,7 @@ The lane change logic was quite simple, if there was a car in front of the ego v
 
 ### Please find a YouTube snippet of the the car driving on a Highway in the Simulator below:
 
-[![Path Planning Highway Driving Video](https://youtu.be/5_LmYiq4SGw)
+![Path Planning: Highway Driving Video](./PathPlanning.png)(https://youtu.be/5_LmYiq4SGw)
    
 ### Simulator.
 You can download the Term3 Simulator which contains the Path Planning Project from the [releases tab (https://github.com/udacity/self-driving-car-sim/releases/tag/T3_v1.2).
