@@ -18,6 +18,10 @@ Ensuring the car could speed up and slow down at a constant acceleration that wa
 With no cars in front of the ego vehicle, the reference speed was 49.5 MPH, otherwise the car will slow down and explore a lane change. Sensor fusion data allowed the ego vehicle to see all other traffic, each car's Frenet values were used to see if it was in the same lane as the ego car and then how close it was[main.cpp at line 330]. Frenet values were used both for detecting traffic car in front of the ego vehicle as well as seeing if a lane change was safe. If a lane change was safe the ego vehicle simply would change its lane and the spline interoplation would make the lane change smooth [main.cpp at line 355 and line 377].
 
 The lane change logic was quite simple, if there was a car in front of the ego vehicle then it would see if it was safe to change to the left lane, if the left lane was not safe then it would try to change to the right lane. The car was able to go > 10 miles around the highway without any incidents in a little more than 10 minutes (The Simulator was stopped after 10:14 minutes).
+
+### Please find a YouTube snippet of the the car driving on a Highway in the Simulator below:
+
+[![Path Planning Highway Driving Video](https://youtu.be/5_LmYiq4SGw)
    
 ### Simulator.
 You can download the Term3 Simulator which contains the Path Planning Project from the [releases tab (https://github.com/udacity/self-driving-car-sim/releases/tag/T3_v1.2).
